@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>Menu</title>
+</head>
+<body>
+    <div>
+        <h1 class="title">menu</h1>
+        <div class="category_area">
+            <ul class="category_list">
+                <li class="category">All</li>
+                <li class="category">Lunch</li>
+                <li class="category">Dinner</li>
+                <li class="category">Desserts</li>
+                <li class="category">Drinks</li>
+            </ul>
+        </div>
+        <div id="menu_area" class="menu_area"></div>
+        <div class="menu hide" menuSample>
+            <img src="http://via.placeholder.com/200x300" alt="">
+            <span class="menu_info" menuTitle></span>
+            <span class="menu_info" menuDesc></span>
+        </div>
+    </div>
+</body>
+<script src="menu.js"></script>
+<script>
+    window.addEventListener("DOMContentLoaded", function() {
+        init();
+    });
+</script>
+</html>
