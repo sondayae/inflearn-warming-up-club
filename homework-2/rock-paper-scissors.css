@@ -1,0 +1,43 @@
+body {
+    font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+}
+
+.contentArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.scoreArea {
+    padding: 30px;
+}
+
+.countArea {
+    padding: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+#restart {
+    color: -apple-system-blue;
+    font-size: 15px;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.selectArea button {
+    margin: 20px;
+    font-size: 15px;
+}

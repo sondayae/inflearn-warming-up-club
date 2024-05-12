@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="contentArea">
+        <h1>가위 바위 보</h1>
+        <h3 id="winMsg"></h3>
+        <button class="hide" id="restart">다시하기</button>
+        <section class="scoreArea">
+            <span>
+                <p>플레이어</p>
+                <p id="playerWin"></p>
+            </span>
+            <span>
+                <p>컴퓨터</p>
+                <p id="computerWin"></p>
+            </span>
+        </section>
+        <section class="selectArea">
+            <ul>
+                <button value="1">가위</button>
+                <button value="2">바위</button>
+                <button value="3">보</button>
+            </ul>
+        </section>
+        <section class="countArea">
+            <p>남은 횟수</p>
+            <p id="tryCount"></p>
+        </section>
+    </div>
+    
+</body>
+<script src="rock-paper-scissors.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', function() {
+        init();
+    });
+</script>
+</html>
