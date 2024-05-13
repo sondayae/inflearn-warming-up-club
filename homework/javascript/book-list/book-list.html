@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="book-list.css">
+    <title>책 리스트</title>
+</head>
+<body>
+    <h1>책 리스트</h1>
+    <form id="addBookForm">
+        <legend>책 이름</legend><input type="text" name="name" placeholder="책의 이름을 입력하세요.">
+        <legend>책 저자</legend><input type="text" name="author" placeholder="책의 저자를 입력하세요.">
+        <button type="submit">제출</button>
+    </form>
+    <div>
+        <div id="list">
+            <span class="list-title">책 이름</span>
+            <span class="list-title">책 저자</span>
+            <span class="list-title"></span>
+        </div>
+    </div>
+</body>
+<script>
+    window.addEventListener('DOMContentLoaded', function() {
+        init();
+    });
+</script>
+<script src="book-list.js"></script>
+</html>

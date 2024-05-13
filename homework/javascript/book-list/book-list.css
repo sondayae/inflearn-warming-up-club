@@ -1,0 +1,47 @@
+body {
+    font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+    margin: 50px 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+input {
+    margin: 10px 0 30px 0;
+    width: 100%;
+    height: 30px;
+}
+input::placeholder {
+    font-size: 12px;
+}
+
+button {
+    padding: 10px;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.2fr;
+    grid-template-rows: auto;
+    margin-bottom: 10px;
+    gap: 10px 0;
+}
+#list .list-title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
